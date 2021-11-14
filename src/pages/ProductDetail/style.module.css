@@ -1,0 +1,44 @@
+.productImg {
+  width: 100%;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+.cartbtn {
+  background-color: #c36a2d;
+  margin: 5px;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  padding: 5px 15px;
+}
+
+.favoritebtn {
+  background-color: white;
+  color: #c36a2d;
+  margin: 5px;
+  border: solid 1px #e6e6e6;
+  border-radius: 3px;
+  padding: 5px 15px;
+  box-shadow: 0 1px 4px #c36a2d;
+}
+
+.unFavoritebtn {
+  background-color: white;
+  color: gray;
+  margin: 5px;
+  border: solid 1px #e6e6e6;
+  border-radius: 3px;
+  padding: 5px 15px;
+  box-shadow: 0 1px 4px #0000000d;
+}
+
+.cartLink {
+  color: black !important;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.3rem !important;
+}
+
+.toastCont {
+  margin: 3rem 1rem 0 0;
+}

@@ -1,0 +1,35 @@
+@media screen and (min-width: 600px) {
+  .filterBtn {
+    display: none;
+  }
+}
+
+.filterBtn {
+  text-align: center;
+}
+
+.filterBtn button {
+  border: none;
+  border-radius: 3px;
+  background-color: #c36a2d;
+  color: white;
+  padding: 5px 30px;
+}
+
+@media screen and (max-width: 620px) {
+  .filterList {
+    display: none;
+  }
+}
+
+.canvasBody {
+  height: 70vh !important;
+}
+
+.filterInput input {
+  margin: 0 5px 15px 0;
+}
+
+.canvasHeader {
+  border-bottom: 1px solid #b8b8b8;
+}

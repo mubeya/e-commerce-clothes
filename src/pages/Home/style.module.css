@@ -1,0 +1,41 @@
+.mainTitle {
+  text-align: center;
+  font-size: calc(1.5vh + 2vw);
+}
+
+.mainTitleSecond {
+  margin-top: 30px;
+  text-align: center;
+  font-size: calc(1.5vh + 1vw);
+}
+
+.productStarHigh {
+  color: #c36a2d;
+}
+
+.productStarLow {
+  color: gray;
+}
+
+.mainAbout {
+  margin: 5rem 1rem !important;
+  text-align: center;
+}
+
+.moreDiv {
+  margin: 35px auto 0;
+}
+
+.moreDiv a {
+  background-color: #c36a2d;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 20px;
+  color: white;
+  font-size: calc(1vw + 1vh) !important;
+  text-decoration: none;
+}
+
+.moreDiv a:hover {
+  color: white;
+}

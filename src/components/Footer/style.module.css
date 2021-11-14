@@ -1,0 +1,7 @@
+.footerList {
+  list-style: none;
+  padding: 0;
+}
+.footerList li {
+  color: gray;
+}

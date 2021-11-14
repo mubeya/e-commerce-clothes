@@ -1,0 +1,31 @@
+.cartItems {
+  display: flex;
+}
+
+.cartImg {
+  width: 100%;
+  border-radius: 3px;
+}
+
+.cartText {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.cartDelete {
+  color: #c36a2d;
+  cursor: pointer;
+}
+
+.cartDelete:hover {
+  color: red;
+}
+
+.btnOrder {
+  background-color: #c36a2d;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 20px;
+  float: right;
+}

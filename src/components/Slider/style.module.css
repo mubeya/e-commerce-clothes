@@ -1,0 +1,23 @@
+.carouselInner {
+}
+
+.slideColLeft {
+  text-align: center;
+}
+
+.slideColLeft h4 {
+  font-size: calc(2vw + 2.5vh) !important;
+}
+
+.slideColLeft p {
+  font-size: calc(1.5vw + 1vh) !important;
+}
+
+.slideColLeft button {
+  background-color: #c36a2d;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 20px;
+  color: white;
+  font-size: calc(1vw + 1vh) !important;
+}
