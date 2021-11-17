@@ -3,7 +3,11 @@ import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
 
 function NavBar() {
   return (
-    <Navbar collapseOnSelect expand='lg' style={{ backgroundColor: "#EADCA6" }}>
+    <Navbar
+      fixed='top'
+      collapseOnSelect
+      expand='lg'
+      style={{ backgroundColor: "#EADCA6" }}>
       <Container>
         <Navbar.Brand href='/'>e-commerce</Navbar.Brand>
         <Navbar.Toggle aria-controls='responsive-navbar-nav' />

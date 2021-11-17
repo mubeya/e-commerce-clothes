@@ -1,12 +1,12 @@
 .mainTitle {
   text-align: center;
-  font-size: calc(1.5vh + 2vw);
+  font-size: calc(1.1rem + 1.5vw);
 }
 
 .mainTitleSecond {
   margin-top: 30px;
   text-align: center;
-  font-size: calc(1.5vh + 1vw);
+  font-size: calc(1rem + 1.5vw);
 }
 
 .productStarHigh {
@@ -14,16 +14,17 @@
 }
 
 .productStarLow {
-  color: gray;
+  color: #bebebe;
 }
 
 .mainAbout {
-  margin: 5rem 1rem !important;
+  margin: 6rem 0 !important;
   text-align: center;
 }
 
 .moreDiv {
   margin: 35px auto 0;
+  text-align: center;
 }
 
 .moreDiv a {
@@ -32,10 +33,20 @@
   border-radius: 3px;
   padding: 5px 20px;
   color: white;
-  font-size: calc(1vw + 1vh) !important;
+  font-size: calc(0.7rem + 0.5vw) !important;
   text-decoration: none;
 }
 
 .moreDiv a:hover {
   color: white;
+}
+
+.cardBox {
+  text-align: center;
+  border: none !important;
+}
+
+.cardTitle {
+  font-size: 15px;
+  margin-top: 10px;
 }

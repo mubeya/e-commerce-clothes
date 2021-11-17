@@ -4,7 +4,7 @@ import style from "./style.module.css";
 
 function Slider() {
   return (
-    <Container>
+    <Container className='mt-5'>
       <Row
         className='row d-flex align-items-center justify-content-between'
         style={{ alignItems: "Center" }}>

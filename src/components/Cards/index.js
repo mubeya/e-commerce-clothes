@@ -15,7 +15,7 @@ function Cards({ activeFilter }) {
         {activeFilter === "All"
           ? products.map((product) => (
               <Col className='mt-5' key={product.id}>
-                <Card>
+                <Card className={style.cardBox}>
                   <Link to={`/${product.id}`}>
                     <Card.Img variant='top' src={product.image} />
                   </Link>
@@ -32,7 +32,9 @@ function Cards({ activeFilter }) {
                       icon={faStar}
                       className={style.productStarLow}
                     />
-                    <Card.Title className='mt-2'>{product.title}</Card.Title>
+                    <Card.Title className={style.cardTitle}>
+                      {product.title}
+                    </Card.Title>
                     <Card.Text>{product.price} $</Card.Text>
                   </Card.Body>
                 </Card>

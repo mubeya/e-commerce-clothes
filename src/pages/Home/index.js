@@ -1,4 +1,3 @@
-import React from "react";
 import NavBar from "../../components/Navbar";
 import Footer from "../../components/Footer";
 import Copyright from "../../components/Copyright";
@@ -67,9 +66,9 @@ function Home() {
         </Row>
         <h2 className={style.mainTitleSecond}>Latest Products</h2>
         <Row xs={1} md={3} lg={4} className='g-4'>
-          {products.slice(0, 12).map((product) => (
+          {products.slice(0, 8).map((product) => (
             <Col className='mt-5' key={product.id}>
-              <Card>
+              <Card className={style.cardBox}>
                 {/* Link to products detail page */}
                 <Link to={`/${product.id}`}>
                   <Card.Img variant='top' src={product.image} />
@@ -87,7 +86,9 @@ function Home() {
                     icon={faStar}
                     className={style.productStarLow}
                   />
-                  <Card.Title className='mt-2'>{product.title}</Card.Title>
+                  <Card.Title className={style.cardTitle}>
+                    {product.title}
+                  </Card.Title>
                   <Card.Text>{product.price} $</Card.Text>
                 </Card.Body>
               </Card>
@@ -100,17 +101,17 @@ function Home() {
         <Row xs={1} md={3} className={style.mainAbout}>
           <Col>
             <FontAwesomeIcon icon={faCubes} style={{ fontSize: 30 }} />
-            <h3>Free Shipping Method</h3>
+            <h5>Free Shipping Method</h5>
             <p>aorem ixpsacdolor sit ameasecur adipisicing elitsf edasd.</p>
           </Col>
           <Col>
             <FontAwesomeIcon icon={faUnlockAlt} style={{ fontSize: 30 }} />
-            <h3>Secure Payment System</h3>
+            <h5>Secure Payment System</h5>
             <p>aorem ixpsacdolor sit ameasecur adipisicing elitsf edasd.</p>
           </Col>
           <Col>
             <FontAwesomeIcon icon={faSync} style={{ fontSize: 30 }} />
-            <h3>Easy Returns</h3>
+            <h5>Easy Returns</h5>
             <p>aorem ixpsacdolor sit ameasecur adipisicing elitsf edasd.</p>
           </Col>
         </Row>
